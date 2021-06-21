@@ -1,9 +1,17 @@
 * {
   margin: 0;
   padding: 0;
-  border: 0;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
 }
+
 body {
   background-color: #;
   font-family: ;
+  font-size: 62.5%;
+}
+
+h2{
+    font-size: 2.8rem;
 }
