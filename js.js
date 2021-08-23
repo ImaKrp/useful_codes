@@ -11,3 +11,13 @@ function getCheckedRadio(id) {
 function getInputNumberValue(id) {
   return Number(document.getElementById(id).value);
 }
+
+const returnButton = document.querySelectorAll("header button");
+
+returnButton.forEach((button) => {
+  button.addEventListener("click", close);
+});
+
+function close() {
+  document.querySelector(".active").classList.remove("active");
+}
