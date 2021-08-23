@@ -39,5 +39,5 @@ input{
 }
 
 input:focus, input:hover{
-  box-shadow: 0 0 0 2px var(--color);
+  box-shadow: 0 0 0 2px var(--color); /*  #66 = 40%  */
 }
